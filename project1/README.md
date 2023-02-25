@@ -1,6 +1,6 @@
-# LAB 1
+# Project 1
 
-This lab is a python script that uses the Canvas API to list the names of the courses you have favorited
+This project is a python script that uses the Canvas API to list the names of the courses you have favorited
 
 ## SETUP
 

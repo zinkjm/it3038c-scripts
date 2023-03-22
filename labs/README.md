@@ -12,5 +12,8 @@
 ## Lab 7
 
 * This lab shows different examples of how to use the Readline node module to grab user input from the console. No extra packages need to be installed. To run this script type the following in the terminal:
-
   * `node labs/lab7.js`
+
+## Lab 9
+
+* This lab calls the api created in the in-class lab and displays the color of each widget. To run this script, first run the api with: `node node/api.js` . Then in a separate terminal run the script: `py labs/lab9.py`

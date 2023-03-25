@@ -4,7 +4,7 @@ This project is an expansion of what I did in Project 1. Project 1 is a python s
 
 ## SETUP
 
-### STEP 1: Install requests library
+## STEP 1: Install required libraries
 
 To install the requests and pyyaml library type in the following commands:
 
@@ -29,9 +29,7 @@ I recommend doing it manually:
 
     5. Then copy the token that gets generated and close the modal
 
-    6. In your script, replace <ACCESS_TOKEN> with your copied token and run the script
-
-## Step 3: Create your yaml configuration file
+## Step 3: Create your yaml configuration file and enter the Canvas token
 
 1. create a yaml file named `config.yaml` in your project2 folder
 2. In your yaml file, write the following code:
@@ -42,4 +40,4 @@ CANVAS:
 ```
 
 3. Replace "`<enter token here>"` with your Canvas authentication token
-4. Run the script with py project2.py
+4. Run the script with py project2/project2.py

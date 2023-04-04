@@ -1,3 +1,5 @@
 output.log
 node_modules
 config.yaml
+venv/*
+**/_pycache_/*

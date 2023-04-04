@@ -17,3 +17,11 @@
 ## Lab 9
 
 * This lab calls the api created in the in-class lab and displays the color of each widget. To run this script, first run the api with: `node node/api.js` . Then in a separate terminal run the script: `py labs/lab9.py`
+
+## Lab 11
+
+* This lab creates a simple Flask app in python that asks that you submit your name.
+* To run the app, first install:
+  * `pip install flask`
+* Then run:
+  * `py labs/lab11/web.py`

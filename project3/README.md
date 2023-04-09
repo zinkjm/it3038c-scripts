@@ -1,17 +1,21 @@
 # Project 3
 
-This project is an expansion of what I did in Project 1 and Project 2. Project 1 is a python script that uses the Canvas API to list the names of the courses you have favorited. Project 2 added the yaml python library to read the Canvas key from a configuration file, so that the authentication token isn't directly entered in the script file. 
+This project is an expansion of what I did in Project 1 and Project 2. Project 1 is a python script that uses the Canvas API to list the names of the courses you have favorited. Project 2 added the yaml python library to read the Canvas key from a configuration file, so that the authentication token isn't directly entered in the script file.
 
 Project 3 expands on both of these to add a link to each of the favorited courses grade page. It also adds a part that receives user inputs and outputs the assignments that are due for those courses either that day, within that week, or within a month.
 
+This projct is useful because it provides and easy and direct way to quickly go to the grade page of any important classes, and it allows an easy and straightforward way to plan out your day, week, or month by showing the assignments that are due based on what timeframe you want.
+
 ## SETUP
 
-## STEP 1: Install required libraries
+## STEP 1: Install required libraries and favorite courses
 
 To install the requests and pyyaml library type in the following commands:
 
 * `pip install requests`
 * `pip install pyyaml`
+
+To favorite a course, go to your All Courses page, https://uc.instructure.com/courses and fill in the star on the far left of any course you want to favorite.
 
 ## STEP 2: Generate your Canvas Token
 
@@ -31,7 +35,7 @@ I recommend doing it manually:
 
     5. Then copy the token that gets generated and close the modal
 
-##  STEP 3: Create your yaml configuration file and enter the Canvas token
+## STEP 3: Create your yaml configuration file and enter the Canvas token
 
 1. create a yaml file named `config.yaml` in your project2 folder
 2. In your yaml file, write the following code:
